@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  /* LIGHT MODE */
+
+  :root {
+    --color-primary: 72 49 212;
+    --color-secondary: 242 72 34;
+    --color-bg: 234 241 255;
+    --color-white: 255 255 255;
+    --shadow: 0px 0px 4px 0px rgba(72, 49, 212, 0.25);
+    /*  */
+    --borderRadius: 1rem;
+    --bodyPad: 2rem;
+    --gap: 1.5rem;
+    /*  */
+    --homeText: clamp(3rem, 1.9726rem + 4.5662vw, 9.25rem);
+    --logoText: clamp(1.25rem, 1.0769rem + 0.7692vw, 2rem);
+  }
+}
